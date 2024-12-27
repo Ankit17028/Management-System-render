@@ -1,7 +1,7 @@
-# Lead Management System
+#  Management System
 
 ## Project Overview
-The Lead Management System is designed to help Key Account Managers (KAMs) manage relationships with restaurant accounts. It allows users to add and track leads, store and manage contact information, log interactions, plan call schedules, and monitor account performance. This application is built using Java Spring Boot, PostgreSQL, and Swagger UI for API documentation.
+The  Management System is designed to help 
 
 ## System Requirements
 - Java Development Kit (JDK) 11 or higher
