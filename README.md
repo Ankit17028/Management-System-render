@@ -1,7 +1,7 @@
-# Lead Management System
+#  Management System
 
 ## Project Overview
-The Lead Management System is designed to help Key Account Managers (KAMs) manage relationships with restaurant accounts. It allows users to add and track leads, store and manage contact information, log interactions, plan call schedules, and monitor account performance. This application is built using Java Spring Boot, PostgreSQL, and Swagger UI for API documentation.
+The  Management System is designed to help 
 
 ## System Requirements
 - Java Development Kit (JDK) 11 or higher
@@ -12,13 +12,13 @@ The Lead Management System is designed to help Key Account Managers (KAMs) manag
 ## Installation Instructions
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/your-repo/lead-management-system.git
-    cd lead-management-system
+    git clone https://github.com/your-repo/management-system.git
+    cd management-system
     ```
 
 2. **Configure the Database**
     - Ensure PostgreSQL is running.
-    - Create a database named `lead_management`.
+    - Create a database named `management`.
     - Update `src/main/resources/application.properties` with your database credentials.
 
 3. **Build the Project**
@@ -74,16 +74,6 @@ Here are some sample JSON payloads for the API endpoints:
             "notes": "Follow-up every 10 days to finalize the contract"
         }
     }
-    ```
-
-- **Get All Leads**
-    ```http
-    GET /api/leads
-    ```
-
-- **Delete a Lead**
-    ```http
-    DELETE /api/leads/{id}
     ```
 
 ## Video Demonstration
