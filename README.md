@@ -12,13 +12,13 @@ The  Management System is designed to help
 ## Installation Instructions
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/your-repo/lead-management-system.git
-    cd lead-management-system
+    git clone https://github.com/your-repo/management-system.git
+    cd management-system
     ```
 
 2. **Configure the Database**
     - Ensure PostgreSQL is running.
-    - Create a database named `lead_management`.
+    - Create a database named `management`.
     - Update `src/main/resources/application.properties` with your database credentials.
 
 3. **Build the Project**
@@ -74,16 +74,6 @@ Here are some sample JSON payloads for the API endpoints:
             "notes": "Follow-up every 10 days to finalize the contract"
         }
     }
-    ```
-
-- **Get All Leads**
-    ```http
-    GET /api/leads
-    ```
-
-- **Delete a Lead**
-    ```http
-    DELETE /api/leads/{id}
     ```
 
 ## Video Demonstration
